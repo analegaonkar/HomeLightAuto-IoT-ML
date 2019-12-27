@@ -1,10 +1,12 @@
-from boltiot import Bolt
-import json  # library for handling JSON data
-import time  # module for sleep operation
 # import pandas
+from sklearn.externals import joblib
 import csv
+import json  # library for handling JSON data
 import os.path
+import time  # module for sleep operation
 from datetime import datetime, date
+
+from boltiot import Bolt
 
 api_key = "3e4f0c87-27b8-44e7-98e9-263389baad36"
 device_id = "BOLT290232"
@@ -21,7 +23,9 @@ def get_sensor_value_from_pin(pin):
         data = json.loads(response)
         if data["success"] != 1:
             print("Request not successfull. This is the response->", data)
-            return -999
+            # return -999
+        else:
+            lin_reg = joblib.load("./")
         sensor_value = int(data["value"])
         return sensor_value
     except Exception as e:
