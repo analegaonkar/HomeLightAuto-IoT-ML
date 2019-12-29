@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/light_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/light_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/boltiot/bolt.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/boltiot/bolt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/boltiot/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/boltiot/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

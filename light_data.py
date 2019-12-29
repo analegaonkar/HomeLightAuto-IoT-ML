@@ -19,7 +19,7 @@ def get_sensor_value_from_pin(pin):
     """
     try:
         print('calling')
-        response = mybolt.analogReadError(pin)
+        response = mybolt.analogReaderror(pin)
         print(response)
         data = json.loads(response)
         if data["success"] != 1:
